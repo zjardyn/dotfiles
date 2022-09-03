@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.23.0",
+    "coc-jedi": ">=0.31.1"
+  }
+}
