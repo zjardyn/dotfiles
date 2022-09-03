@@ -30,7 +30,6 @@
         "console_right_on_top": true,
         "additional_source_columns": 0
     },
-    "pdf_previewer": "none",
     "posix_terminal_shell": "bash",
     "source_with_echo": true,
     "editor_keybindings": "vim"
