@@ -32,5 +32,5 @@
     },
     "posix_terminal_shell": "bash",
     "source_with_echo": true,
-    "editor_keybindings": "vim"
+    "pdf_previewer": "none"
 }

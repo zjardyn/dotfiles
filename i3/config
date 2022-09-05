@@ -194,8 +194,8 @@ bindsym XF86MonBrightnessUp exec --no-startup-id light -A 5 # increase screen br
 bindsym XF86MonBrightnessDown exec --no-startup-id light -U 5 # decrease screen brightness
 
 # Change gap size around windows
-gaps inner 5
-gaps outer 5
+gaps inner 6
+gaps outer -4 
 
 # Use polybar instead of defauld bar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -210,7 +210,8 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id picom &
 
 # Set background image
-exec_always --no-startup-id feh --bg-scale ~/Downloads/The\ Great\ Wave\ of\ Plastic\ copy\ 3.jpeg
+# exec_always --no-startup-id feh --bg-scale ~/Downloads/The\ Great\ Wave\ of\ Plastic\ copy\ 3.jpeg
+exec_always --no-startup-id feh --bg-scale ~/Downloads/papers.co-bb39-night-city-dark-minimal-illustration-art-36-3840x2400-4k-wallpaper.jpg
 
 # Go back and forth between workspaces 
 workspace_auto_back_and_forth yes
