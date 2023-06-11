@@ -1,1 +1,1 @@
-## I will now try to repartition my ssd wish me luck. 
+dot files for any linux distro running i3
